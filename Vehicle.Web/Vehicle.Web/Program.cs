@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Vehicle.Web.Data;
+using Vehicle.Data.Data;
+using Vehicle.Web.Infrastructured;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services
-    .AddDbContext<ApplicationDbContext>(options =>
+    .AddDbContext<VehicleDbContext>(options =>
     options.UseSqlServer(connectionString))
     .AddDatabaseDeveloperPageExceptionFilter()
     .AddDefaultIdentity<IdentityUser>(options =>
@@ -18,11 +19,13 @@ builder.Services
         options.Password.RequireUppercase = false;
     })
     .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<VehicleDbContext>();
 
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+app.PrepareDatabase();
 
 if (app.Environment.IsDevelopment())
 {

@@ -12,7 +12,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.1",
           "Microsoft.AspNetCore.Identity.UI": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.1"
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.1",
+          "Vehicle.Data": "1.0.0"
         },
         "runtime": {
           "Vehicle.Web.dll": {}
@@ -524,6 +525,15 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "Vehicle.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+        },
+        "runtime": {
+          "Vehicle.Data.dll": {}
+        }
       }
     }
   },
@@ -896,6 +906,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Vehicle.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

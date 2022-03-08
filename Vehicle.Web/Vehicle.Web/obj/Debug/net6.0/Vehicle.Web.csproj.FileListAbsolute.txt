@@ -53,7 +53,6 @@ C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicl
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.AssemblyInfoInputs.cache
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.AssemblyInfo.cs
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.csproj.CoreCompileInputs.cache
-C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.RazorAssemblyInfo.cache
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.RazorAssemblyInfo.cs
@@ -67,3 +66,5 @@ C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicl
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\ref\Vehicle.Web.dll
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.pdb
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.genruntimeconfig.cache
+C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\bin\Debug\net6.0\Vehicle.Data.dll
+C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\bin\Debug\net6.0\Vehicle.Data.pdb

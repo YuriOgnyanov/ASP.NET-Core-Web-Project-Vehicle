@@ -764,6 +764,20 @@
             "rid": "win"
           }
         }
+      },
+      "Vehicle.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Vehicle.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vehicle.Data.dll": {}
+        }
       }
     }
   },
@@ -2253,6 +2267,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Vehicle.Data/1.0.0": {
+      "type": "project",
+      "path": "../Vehicle.Data/Vehicle.Data.csproj",
+      "msbuildProject": "../Vehicle.Data/Vehicle.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2261,7 +2280,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.1",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.1"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
+      "Vehicle.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2290,7 +2310,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yurio\\OneDrive\\Documents\\GitHub\\ASP.NET-Core-Web-Project-Vehicle\\Vehicle.Web\\Vehicle.Data\\Vehicle.Data.csproj": {
+              "projectPath": "C:\\Users\\yurio\\OneDrive\\Documents\\GitHub\\ASP.NET-Core-Web-Project-Vehicle\\Vehicle.Web\\Vehicle.Data\\Vehicle.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

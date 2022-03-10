@@ -68,3 +68,4 @@ C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicl
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.genruntimeconfig.cache
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\bin\Debug\net6.0\Vehicle.Data.dll
 C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\bin\Debug\net6.0\Vehicle.Data.pdb
+C:\Users\yurio\OneDrive\Documents\GitHub\ASP.NET-Core-Web-Project-Vehicle\Vehicle.Web\Vehicle.Web\obj\Debug\net6.0\Vehicle.Web.MvcApplicationPartsAssemblyInfo.cs

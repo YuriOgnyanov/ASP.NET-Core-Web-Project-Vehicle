@@ -2,6 +2,8 @@
 {
     public class DataConstants
     {
+        public const int FaceTypeMaxLength = 20;
+
         public const int CarNameMaxLength = 30;
         public const int CarBrandMaxLength = 20;
         public const int CarModelMaxLength = 20;

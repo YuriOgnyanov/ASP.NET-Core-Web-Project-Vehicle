@@ -1,6 +1,7 @@
 ﻿namespace Vehicle.Web.Infrastructured
 {
     using Microsoft.EntityFrameworkCore;
+    using System;
     using Vehicle.Data.Data;
     using Vehicle.Data.Models;
 
@@ -14,8 +15,20 @@
             data.Database.Migrate();
 
             SeedBrands(data);
+            SeedFaces(data);
 
             return app;
+        }
+
+        private static void SeedFaces(VehicleDbContext data)
+        {
+            if (!data.Faces.Any())
+            {
+                data.Faces.Add(new FaceType { Name = "Private Person" });
+                data.Faces.Add(new FaceType { Name = "Car Dealership" });
+
+                data.SaveChanges();
+            }
         }
 
         private static void SeedBrands(VehicleDbContext data)

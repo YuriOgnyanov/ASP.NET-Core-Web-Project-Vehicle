@@ -22,6 +22,10 @@
 
         public int BrandId { get; init; }
 
+        public int FaceTypeId { get; init; }
+
         public IEnumerable<CarBrandViewModel> Brands { get; set; }
+        public IEnumerable<CarFaceTypeViewModel> Faces { get; set; }
+
     }
 }

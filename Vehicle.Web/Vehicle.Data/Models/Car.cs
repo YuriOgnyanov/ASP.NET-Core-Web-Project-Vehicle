@@ -2,7 +2,7 @@
 {
     using System;
     using System.ComponentModel.DataAnnotations;
-    using Vehicle.Data.Models.Enums;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     using static DataConstants;
 
@@ -33,6 +33,9 @@
         public string Description { get; set; }
 
         [Required]
+        public int FaceTypeId { get; set; }
+        
+        [ForeignKey(nameof(FaceTypeId))]
         public FaceType FaceType { get; set; }
 
         [Required]
@@ -49,6 +52,8 @@
 
         [Required]
         public int BrandId { get; set; }
+
+        [ForeignKey(nameof(BrandId))]
         public Brand Brand { get; set; }
     }
 }

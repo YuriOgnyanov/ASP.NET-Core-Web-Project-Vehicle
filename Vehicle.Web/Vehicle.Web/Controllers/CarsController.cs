@@ -17,8 +17,11 @@ namespace Vehicle.Web.Controllers
             return View(new AddCarFormViewModel
             {
                 Brands = this.GetCarBrand(),
+                Faces = this.GetFaceType()
             });
         }
+
+        
 
 
         [HttpPost]
@@ -32,8 +35,18 @@ namespace Vehicle.Web.Controllers
             .Select(b => new CarBrandViewModel
             {
                 Id = b.Id,
-                Name = b.Name,
+                Name = b.Name
             })
             .ToList();
+
+        private IEnumerable<CarFaceTypeViewModel> GetFaceType()
+            => data.Faces
+            .Select(f => new CarFaceTypeViewModel
+            {
+                Id = f.Id,
+                Name = f.Name
+            });
+
+        
     }
 }

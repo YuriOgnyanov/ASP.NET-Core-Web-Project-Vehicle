@@ -13,6 +13,7 @@
 
         public DbSet<Car> Cars { get; set; }
         public DbSet<Brand> Brands { get; set; }
+        public DbSet<FaceType> Faces { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

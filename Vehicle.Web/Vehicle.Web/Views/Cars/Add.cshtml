@@ -4,28 +4,57 @@
     ViewData["Title"] = "Add Car";
 }
 
-<form method="post">
+<div class="container">
+    <div class="row">
+        <div class="offset-md-2 col-md-8 col-sm-12">
+            <h2 class="heading-margin text-center">Add Car</h2>
+
+            <form method="post">
     <div class="mb-3">
-        <label for="Name">Full Name</label>
-        <input for="Name" class="form-control" placeholder="Тhe name of your car">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" name="Name" placeholder="Тhe name of your car...">
+    </div>
+    <div class="mb-3">
+        <label for="price">Price</label>
+        <input type="number" class="form-control" name="Price" placeholder="65000">
+    </div>
+    <div class="mb-3">
+        <label for="mileage">Mileage</label>
+        <input type="number" class="form-control" name="Mileage" placeholder="120000">
+    </div>
+    <div class="mb-3">
+        <label for="description">Description</label>
+        <textarea type="text" class="form-control"  rows="4 "name="Description" placeholder="The car is like new and very ......"></textarea>
+    </div>    
+    <div class="mb-3">
+        <label for="year">Year</label>
+        <input type="datetime" class="form-control" name="Year" placeholder="@DateTime.UtcNow.Year">
+    </div>
+    <div class="mb-3">
+        <label for="town">Town</label>
+        <input type="text" class="form-control" name="Town" placeholder="Location on your car...">
+    </div>
+    <div class="mb-3">
+        <label for="imageUrl">Image</label>
+        <input type="url" class="form-control" name="ImageUrl" placeholder="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg">
+    </div>
+    <div class="mb-3">
+        <label for="faceType">You are</label>
+        <input type="text" class="form-control" name="FaceType" placeholder="PrivatePerson or CarDealership">
     </div>
     <div class="Form-group">
-        <label for="BrandId"></label>
-        <select for="BrandId" class="form-select">
+        <label for="BrandId">Brand</label>
+        <select for="BrandId" class="form-select" name="Model">
             @foreach (var brand in Model.Brands)
             {
                 <option value="@brand.Id">@brand.Name</option>
             }
         </select>
     </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+    <div>
+        <button type="submit" class="btn-primary">Submit</button>
     </div>
-    <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-
 </form>
+        </div>
+    </div>
+</div>
